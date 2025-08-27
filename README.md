@@ -13,7 +13,7 @@ Para este workshop puedes utilizar una cuenta gratuita de Azure. Aprovecha los c
 
 ## Demos incluidas
 
-1. [De Vulnerable a Seguro con ACR](./demo1-acr-vulnerabilidades.md)
+1. [De Vulnerable a Seguro con ACR](./demo1-acr-vulnerabilidades/demo1-acr-vulnerabilidades.md)
 2. [Eliminando Secretos del Código con Azure Key Vault en Azure DevOps Pipelines](./demo2-keyvault-pipelines.md)
 3. [Bloqueando Deployments Inseguros en AKS](./demo3-aks-policies.md)
 

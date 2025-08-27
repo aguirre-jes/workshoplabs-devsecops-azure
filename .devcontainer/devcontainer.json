@@ -1,0 +1,21 @@
+{
+    "name": "DevSecOps Azure DevContainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/terraform:1.4.1": {},
+        "ghcr.io/devcontainers/features/azure-cli:1.2.7": {}
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            },
+            "extensions": [
+                "ms-azuretools.vscode-azureterraform",
+                "ms-azuretools.vscode-azurecli"
+            ]
+        }
+    }
+}
