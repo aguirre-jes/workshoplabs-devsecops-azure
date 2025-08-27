@@ -5,7 +5,8 @@
     },
     "features": {
         "ghcr.io/devcontainers/features/terraform:1.4.1": {},
-        "ghcr.io/devcontainers/features/azure-cli:1.2.7": {}
+        "ghcr.io/devcontainers/features/azure-cli:1.2.7": {},
+        "ghcr.io/devcontainers/features/docker-in-docker:2.12.2": {}
     },
     "customizations": {
         "vscode": {
